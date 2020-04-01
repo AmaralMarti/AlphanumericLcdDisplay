@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste Henrique</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h1>Display Alfanumerico</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-2">
+                <button id="styleGreen" type="button" class="btn btn-block btn-success">Green Style</button>
+            </div>
+            <div class="col-md-2">
+                <button id="styleBlue" type="button" class="btn btn-block btn-primary">Blue Style</button>
+            </div>
+            <div class="input-group col-md-4">
+                <div class="input-group-prepend">
+                <span class="input-group-text">Rows</span>
+                </div>
+                <input id="rows" type="text" class="form-control">
+                <div class="input-group-append">
+                    <button id="apply-rows" type="button" class="btn btn-primary">Apply</button>
+                </div>
+            </div>
+            <div class="input-group col-md-4">
+                <div class="input-group-prepend">
+                <span class="input-group-text">Cols</span>
+                </div>
+                <input id="cols" type="text" class="form-control">
+                <div class="input-group-append">
+                    <button id="apply-cols" type="button" class="btn btn-primary">Apply</button>
+                </div>
+            </div>
+        </div>
+        <div class="row" style="margin-top: 20px;">
+            <div class="col-md-12">
+                <canvas id="display" width="200" height="100"></canvas>
+            </div>
+        </div>
+    </div>
+    <script src="dist/bundle.js"></script>
+</body>
+</html>
