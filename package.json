@@ -1,0 +1,24 @@
+{
+  "name": "alphanumericlcddisplay",
+  "version": "1.0.0",
+  "description": "A component to simulate a alphanumeric LCD display",
+  "main": "src/index.js",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "source-map-loader": "^0.2.4",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  },
+  "scripts": {
+    "dev": "node_modules/webpack/bin/webpack.js --progress --color --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "LCD",
+    "Display",
+    "Alphanumeric"
+  ],
+  "author": "Henrique Marti",
+  "license": "MIT"
+}
