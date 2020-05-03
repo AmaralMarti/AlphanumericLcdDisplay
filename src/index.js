@@ -4,7 +4,8 @@ const disp = Alphanumeric
 disp.init("display")
 disp.rows = 4
 disp.cols = 20
-disp.pixelSize = 3
+disp.pixelSize = 4
+disp.pixelSpace = 1
 disp.style('blue')
 disp.cursor()
 
