@@ -2,8 +2,8 @@ import { Alphanumeric } from './alphanumeric'
 
 const disp = Alphanumeric
 disp.init("display")
-disp.rows = 4
-disp.cols = 20
+disp.rows = 2
+disp.cols = 16
 disp.pixelSize = 4
 disp.pixelSpace = 1
 disp.style('blue')
