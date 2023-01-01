@@ -5,10 +5,10 @@
   "main": "src/index.js",
   "devDependencies": {
     "babel": "^6.23.0",
-    "source-map-loader": "^0.2.4",
+    "source-map-loader": "^4.0.1",
     "uglifyjs-webpack-plugin": "^2.2.0",
-    "webpack": "^4.44.0",
-    "webpack-cli": "^3.3.12"
+    "webpack": "^5.75.0",
+    "webpack-cli": "^5.0.1"
   },
   "scripts": {
     "dev": "node_modules/webpack/bin/webpack.js --progress --color --watch",
